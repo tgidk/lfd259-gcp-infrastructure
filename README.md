@@ -13,7 +13,7 @@ ssh-keygen -t rsa -f ~/.ssh/KEY_FILENAME -C USERNAME
 
 --- build GCP infrastructure for k8s from your home-dir:
 ```
-terraform -chdir=source/projects/lfd259-gcp-infrastructure/ initfmt
+terraform -chdir=source/projects/lfd259-gcp-infrastructure/ init
 terraform -chdir=source/projects/lfd259-gcp-infrastructure/ fmt
 terraform -chdir=source/projects/lfd259-gcp-infrastructure/ validate
 terraform -chdir=source/projects/lfd259-gcp-infrastructure/ apply
